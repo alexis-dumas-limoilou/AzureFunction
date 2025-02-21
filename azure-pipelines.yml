@@ -1,5 +1,5 @@
 trigger:
-- none
+- main
 
 pool:
   vmImage: 'windows-latest'
@@ -52,6 +52,7 @@ stages:
   - deployment: Deploy
     pool:
       vmImage: 'ubuntu-latest'
+    environment: Dev
     strategy:
       runOnce:
         deploy:
@@ -63,5 +64,4 @@ stages:
               appType: functionApp
               appName: '$(functionAppName)'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/AzFunctionInterets.zip'
-              runtimeStack: DOCKER|microsoft/azure-functions-dotnet:4
               startUpCommand: 'func azure functionapp publish $(functionAppName) --no-bundler'
