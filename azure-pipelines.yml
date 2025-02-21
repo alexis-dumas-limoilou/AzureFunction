@@ -64,5 +64,5 @@ stages:
               azureSubscription: $(serviceConnection)
               appType: functionApp
               appName: '$(functionAppName)'
-              package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/AzFunctionInterets.zip'
+              package: '$(Build.ArtifactStagingDirectory)/package.zip'
               startUpCommand: 'func azure functionapp publish $(functionAppName) --no-bundler'
