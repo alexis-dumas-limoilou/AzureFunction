@@ -1,0 +1,31 @@
+﻿@model IEnumerable<BanqueTardi.Models.ContratAssurance>
+
+@{
+    ViewData["Title"] = "Liste des Contrats d'Assurance";
+}
+
+<h2>Liste des Contrats d'Assurance</h2>
+
+<a asp-action="Create" class="btn btn-primary">Ajouter un nouveau contrat</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Identifiant</th>
+            <th>Client</th>
+            <th>Montant</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var contrat in Model)
+        {
+            <tr>
+                <td>@contrat.Id</td>
+                <td>@contrat.NomDemandeur</td>
+                <td>@contrat.Montant</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+

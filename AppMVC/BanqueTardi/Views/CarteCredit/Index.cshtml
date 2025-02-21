@@ -1,0 +1,32 @@
+﻿@model IEnumerable<CarteCredit>
+
+@{
+    ViewData["Title"] = "Liste des Cartes de Crédit";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<a asp-action="Create" class="btn btn-primary">Ajouter une Carte de Crédit</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Numéro de Carte</th>
+            <th>Nom du Demandeur</th>
+            <th>Type de Carte</th>
+            <th>Limite de Crédit</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var carte in Model)
+        {
+            <tr>
+                <td>@carte.Numero</td>
+                <td>@carte.NomDemandeur</td>
+                <td>@carte.TypeCarte</td>
+                <td>@carte.LimiteCredit.ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

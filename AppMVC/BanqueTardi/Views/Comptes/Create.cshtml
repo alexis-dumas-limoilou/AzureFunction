@@ -1,0 +1,48 @@
+﻿@model BanqueTardi.Models.Compte
+
+@{
+    ViewData["Title"] = "Création de Compte";
+}
+
+<h1>Créer</h1>
+
+<h4>
+    Compte pour @ViewBag.Client.CodeClient
+</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <input type="hidden" asp-for="ClientId" value="@ViewBag.Client.ID" />
+            <div class="form-group">
+                <label asp-for="ClientId" class="control-label"></label>
+                <div>@Html.DisplayFor(model => model.ClientId)</div>
+            </div>
+            <div class="form-group">
+                <label asp-for="BanqueId" class="control-label"></label>
+                <select asp-for="BanqueId" class ="form-control" asp-items="ViewBag.BanqueId"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="TypeCompteID" class="control-label"></label>
+                <select asp-for="TypeCompteID" class="form-control" asp-items="ViewBag.TypeComptes"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Solde" class="control-label"></label>
+                <input asp-for="Solde" class="form-control" />
+                <span asp-validation-for="Solde" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Créer compte" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-controller="Clients" asp-action="Gerer" asp-route-id="@ViewBag.Client.ID">Retour vers Gérer</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

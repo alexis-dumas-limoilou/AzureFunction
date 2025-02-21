@@ -1,0 +1,35 @@
+﻿@model CarteCredit
+
+@{
+    ViewData["Title"] = "Créer une Carte de Crédit";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Create" method="post">
+    
+    <div class="form-group">
+        <label asp-for="IdClient">Nom du Demandeur</label>
+        <select asp-for="IdClient" class="form-control" asp-items="@(ViewData["IdClient"] as SelectList)"></select>
+        <span asp-validation-for="IdClient" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TypeCarte">Type de Carte</label>
+        <select asp-for="TypeCarte" class="form-control">
+            <option value="VISA">VISA</option>
+            <option value="Mastercard">Mastercard</option>
+        </select>
+        <span asp-validation-for="TypeCarte" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="LimiteCredit"></label>
+        <input asp-for="LimiteCredit" class="form-control" type="number" step="0.01" />
+        <span asp-validation-for="LimiteCredit" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Enregistrer</button>
+    <a asp-action="Index" class="btn btn-secondary">Annuler</a>
+</form>
+

@@ -1,0 +1,39 @@
+﻿@model BanqueTardi.Models.Compte
+
+@{
+    ViewData["Title"] = "Suppression de Compte";
+}
+
+<h1>Supprimer</h1>
+
+<h3>Est-ce que vous être sur de vouloir supprimer ?</h3>
+<div>
+    <h4>Compte</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Banque)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Banque!.ID)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Client)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Client!.Adresse)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Solde)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Solde)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="CompteId" />
+        <input type="submit" value="Supprimer" class="btn btn-danger" /> |
+        <a asp-controller="Clients" asp-action="Gerer" asp-route-id="@ViewBag.Id">Retour vers Gérer</a>
+    </form>
+</div>

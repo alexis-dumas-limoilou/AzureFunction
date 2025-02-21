@@ -1,0 +1,73 @@
+﻿@model BanqueTardi.Models.Client
+
+@{
+    ViewData["Title"] = "Details du Client";
+}
+
+<h1>Détails</h1>
+
+<div>
+    <h4>Client</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nom)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nom)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Prenom)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Prenom)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DateNaissance)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DateNaissance)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Adresse)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Adresse)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CodePostale)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CodePostale)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NbDecouverts)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NbDecouverts)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Telephone)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Telephone)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NomParent)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.NomParent)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TelephoneParent)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TelephoneParent)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.ID">Modifier</a> |
+    <a asp-action="Index" asp-controller="Home">Retour à la liste</a>
+    <a asp-controller="Clients" asp-action="Gerer" asp-route-id="@Model!.ID">Retour vers Gérer</a>
+</div>

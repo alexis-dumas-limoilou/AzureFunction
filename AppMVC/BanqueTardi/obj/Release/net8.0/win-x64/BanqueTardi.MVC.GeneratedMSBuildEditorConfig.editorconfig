@@ -1,0 +1,127 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BanqueTardi.MVC
+build_property.RootNamespace = BanqueTardi.MVC
+build_property.ProjectDir = C:\Users\maste\OneDrive - Cégep Limoilou\DeploiementInfonuagique\TP1\BanqueTardi\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\maste\OneDrive - Cégep Limoilou\DeploiementInfonuagique\TP1\BanqueTardi
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/Assurances/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzdXJhbmNlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/Assurances/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzdXJhbmNlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/CarteCredit/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydGVDcmVkaXRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/CarteCredit/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydGVDcmVkaXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/Clients/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/Clients/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/Clients/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/Clients/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/Clients/Gerer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xHZXJlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/Clients/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/Comptes/CalculInterets.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHRlc1xDYWxjdWxJbnRlcmV0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/Comptes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHRlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/Comptes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHRlc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/Comptes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHRlc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/Comptes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHRlc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/Comptes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHRlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/Operations/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmF0aW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/Operations/Historique.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmF0aW9uc1xIaXN0b3JpcXVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/maste/OneDrive - Cégep Limoilou/DeploiementInfonuagique/TP1/BanqueTardi/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-7wz08qqanj

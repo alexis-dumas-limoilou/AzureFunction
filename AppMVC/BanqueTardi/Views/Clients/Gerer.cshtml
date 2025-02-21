@@ -1,0 +1,134 @@
+﻿@model BanqueTardi.Models.Client
+@{
+    ViewData["Title"] = "Centre d'information";
+}
+
+<h1>Centre d'information</h1>
+
+<h4>Client</h4>
+<hr />
+<div class="row">
+    <form asp-action="Gerer">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="ID" />
+        <dl class="row">
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Nom)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Nom)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.Prenom)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.Prenom)
+            </dd>
+            <dt class = "col-sm-2">
+                @Html.DisplayNameFor(model => model.CodeClient)
+            </dt>
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.CodeClient)
+            </dd>
+        </dl>
+        <td>
+            <a asp-action="Details" asp-route-id="@Model?.ID">Fiche détaillée</a> |
+            <a asp-action="Edit" asp-route-id="@Model?.ID">Modifier</a> |
+            <a asp-action="Delete" asp-route-id="@Model?.ID">Supprimer</a> |
+            <a asp-controller="Comptes" asp-action="Create" asp-route-id="@Model?.ID">Ajouter Compte</a> |
+        </td>
+    </form>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Type De Compte: 
+                </th>
+                <th>
+                    Numéro: (Version Longue)
+                </th>
+                <th>
+                    
+                </th>
+                <th>
+                    
+                </th>
+                <th>
+                    
+                </th>
+                <th>
+                    Solde: 
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model!.Comptes is not null) {
+                foreach (var compte in Model.Comptes)
+                {
+                    <tr>
+                        <td>
+                            Compte: @Html.DisplayFor(modelItem => compte.TypeCompte!.Libelle)
+                        </td>
+                        <td>
+                            No @Html.DisplayFor(modelItem => compte.CodeCourt) (@Html.DisplayFor(modelItem => compte.CodeLong))
+                        </td>
+                        <td>
+                            <a asp-area="" asp-controller="Comptes" asp-action="Edit" asp-route-id="@compte.CodeCourt">Modifier</a>
+                        </td>
+                        <td>
+                            <a asp-area="" asp-controller="Operations" asp-action="Historique" asp-route-id="@compte.CodeCourt">Historique</a>
+                        </td>
+                        <td>
+                            <a asp-area="" asp-controller="Operations" asp-action="Create" asp-route-id="@compte.CodeCourt">Ajouter Opération</a>
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => compte.Solde)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" class="text-center">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            Type d'opération
+                                        </th>
+                                        <th>
+                                            Montant
+                                        </th>
+                                        <th>
+                                            Libellé
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @if (compte.Operations is not null)
+                                    {
+                                        foreach (var operation in compte.Operations)
+                                        {
+                                            <tr>
+                                                <td>
+                                                    @Html.DisplayFor(modelItem => operation.TypeOperation)
+                                                </td>
+                                                <td>
+                                                    @Html.DisplayFor(modelItem => operation.Montant)
+                                                </td>
+                                                <td>
+                                                    @Html.DisplayFor(modelItem => operation.Libelle)
+                                                </td>
+                                            </tr>
+                                        }
+                                    } else {
+                                        <tr><td colspan="6" class="text-center"><h1>Pas d'opération</h1></td></tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                }
+            } else {
+                <tr><td colspan="6" class="text-center"><h1>Pas de compte</h1></td></tr>
+            }
+        </tbody>
+    </table>
+</div>

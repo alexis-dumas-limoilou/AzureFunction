@@ -1,0 +1,58 @@
+﻿@model IEnumerable<BanqueTardi.Models.Operation>
+
+@{
+    ViewData["Title"] = "Historique d'Opérations";
+}
+
+<h1>Liste d'Opération</h1>
+<hr />
+<h2>Pour le compte @ViewBag.Code</h2>
+<form asp-action="Historique" asp-controller="Operations">
+            <div class="row g-2 align-items-center">
+                <div class="col-auto">
+                    <input class="form-control" type="text" id="filtre" name="filtre" />
+                </div>
+                <div class="col-auto">
+                    <input class="btn btn-primary" type="submit" value="Recherche par Type d'opération" />
+                </div>
+            </div>
+        </form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Montant)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Libelle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TypeOperation)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@if(Model is not null) {
+        foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Montant)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Libelle)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TypeOperation)
+                </td>
+            </tr>
+        }
+    } else {
+        <tr>
+            <td colspan="3"><h1>Aucune Opération</h1></td>
+        </tr>
+    }
+    </tbody>
+</table>
+<a asp-controller="Clients" asp-action="Gerer" asp-route-id="@ViewBag.Id">Retour vers Gérer</a>

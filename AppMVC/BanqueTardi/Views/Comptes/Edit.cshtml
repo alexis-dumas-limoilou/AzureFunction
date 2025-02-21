@@ -1,0 +1,49 @@
+﻿@model BanqueTardi.Models.Compte
+
+@{
+    ViewData["Title"] = "Modification d'un Compte";
+}
+
+<h1>Modifier</h1>
+
+<h4>Compte @Model.CodeLong</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="CompteId" />
+            <input type="hidden" asp-for="ClientId" />
+            <div class="form-group">
+                <label asp-for="BanqueId" class="control-label"></label>
+                <select asp-for="BanqueId" class="form-control" asp-items="ViewBag.BanqueId"></select>
+                <span asp-validation-for="BanqueId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TypeCompteID" class="control-label"></label>
+                <select asp-for="TypeCompteID" class="form-control" asp-items="ViewBag.TypeComptes"></select>
+                <span asp-validation-for="TypeCompteID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Solde" class="control-label"></label>
+                <input asp-for="Solde" class="form-control" />
+                <span asp-validation-for="Solde" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Sauvegarde" class="btn btn-primary" @{if(Model.Operations != null)
+                    {
+                        @:disabled="disabled"
+                    }
+                } />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-controller="Clients" asp-action="Gerer" asp-route-id="@ViewBag.Id">Retour vers Gérer</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

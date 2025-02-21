@@ -1,0 +1,85 @@
+﻿@model IEnumerable<BanqueTardi.Models.Client>
+
+@{
+    ViewData["Title"] = "Liste de Clients";
+}
+
+<h1>Enregistrement client</h1>
+
+<p>
+    <a asp-action="Create">Créer nouveau client</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Prenom)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateNaissance)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Adresse)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CodePostale)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NbDecouverts)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Telephone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NomParent)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TelephoneParent)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Prenom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateNaissance)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Adresse)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CodePostale)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NbDecouverts)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telephone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomParent)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TelephoneParent)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ID">Modifier</a> |
+                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID">Supprimer</a> |
+                <a asp-action="Gerer" asp-route-id="@item.ID">Gérer</a> |
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<a asp-action="Index" asp-controller="Home">Retour à la liste officiel</a>

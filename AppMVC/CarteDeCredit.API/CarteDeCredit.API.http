@@ -1,0 +1,6 @@
+@CarteDeCredit.API_HostAddress = http://localhost:5063
+
+GET {{CarteDeCredit.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
