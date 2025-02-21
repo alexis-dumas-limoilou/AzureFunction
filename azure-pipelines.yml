@@ -8,6 +8,7 @@ variables:
   buildConfiguration: 'Release'
   serviceConnection : 'sc-azure'
   functionAppName: 'AzFunctionInterets'
+  packagePath: '$(Build.ArtifactStagingDirectory)/package.zip'
 
 stages:
 - stage: 'Build'
@@ -65,5 +66,5 @@ stages:
               azureSubscription: $(serviceConnection)
               appType: functionApp
               appName: '$(functionAppName)'
-              package: '$(Build.ArtifactStagingDirectory)/package.zip'
+              package: '$(packagePath)'
               startUpCommand: 'func azure functionapp publish $(functionAppName) --no-bundler'
