@@ -6,6 +6,7 @@ pool:
 
 variables:
   buildConfiguration: 'Release'
+  serviceConnection : 'sc-azure'
   functionAppName: 'AzFunctionInterets'
 
 stages:
@@ -60,7 +61,7 @@ stages:
           - task: AzureFunctionApp@1
             displayName: 'Azure Function Deploy'
             inputs:
-              azureSubscription: 'Azure for Students'
+              azureSubscription: $(serviceConnection)
               appType: functionApp
               appName: '$(functionAppName)'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/AzFunctionInterets.zip'
