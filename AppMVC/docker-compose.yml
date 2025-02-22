@@ -1,6 +1,0 @@
-services:
-  cartedecredit.api:
-    image: ${DOCKER_REGISTRY-}cartedecreditapi
-    build:
-      context: CarteDeCredit.API
-      dockerfile: Dockerfile

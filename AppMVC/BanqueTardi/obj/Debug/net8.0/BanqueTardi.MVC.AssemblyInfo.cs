@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BanqueTardi.MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3396e0d2ce500f34bb3d7471164bada0df39e2f8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7431b3f57898a45b4781b3106c95aaaf99737894")]
 [assembly: System.Reflection.AssemblyProductAttribute("BanqueTardi.MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BanqueTardi.MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
