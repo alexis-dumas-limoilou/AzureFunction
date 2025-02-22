@@ -62,6 +62,12 @@ stages:
       runOnce:
         deploy:
           steps:
+          - task: DownloadBuildArtifacts@0
+            inputs:
+              buildType: 'current'
+              downloadType: 'single'
+              artifactName: 'drop'
+              downloadPath: '$(Build.ArtifactStagingDirectory)'
           - task: AzureFunctionApp@1
             displayName: 'Azure Function Deploy'
             inputs:
