@@ -11,11 +11,11 @@ EXPOSE 8081
 # This stage is used to build the service project
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
-WORKDIR /AppMVC
-COPY ["CarteDeCredit.API/CarteDeCredit.API.csproj", "CarteDeCredit.API/"]
-RUN dotnet restore "./CarteDeCredit.API/CarteDeCredit.API.csproj"
-COPY ["CarteDeCredit.API/", "CarteDeCredit.API/"]
-WORKDIR "/AppMVC/CarteDeCredit.API"
+WORKDIR /src
+COPY ["CarteDeCredit.API.csproj", "."]
+RUN dotnet restore "./CarteDeCredit.API.csproj"
+COPY . .
+WORKDIR "/src/."
 RUN dotnet build "./CarteDeCredit.API.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 # This stage is used to publish the service project to be copied to the final stage

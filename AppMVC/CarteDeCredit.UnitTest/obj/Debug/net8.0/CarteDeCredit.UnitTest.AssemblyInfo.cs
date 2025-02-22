@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarteDeCredit.UnitTest")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a44729919577f775feddc83ba02a1788b73cf36a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3396e0d2ce500f34bb3d7471164bada0df39e2f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarteDeCredit.UnitTest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarteDeCredit.UnitTest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
