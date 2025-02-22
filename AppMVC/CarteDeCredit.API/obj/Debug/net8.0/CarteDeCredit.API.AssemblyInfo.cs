@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarteDeCredit.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7431b3f57898a45b4781b3106c95aaaf99737894")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77c1dde4497dd9ffde8815b21e89dfd2408b02c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarteDeCredit.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarteDeCredit.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
