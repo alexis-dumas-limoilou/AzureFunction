@@ -12,7 +12,7 @@
     <WebStackScaffolding_DbContextTypeFullName>CarteDeCredit.API.Data.CarteDeCreditDBContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
     <WebStackScaffolding_IsViewGenerationSelected>True</WebStackScaffolding_IsViewGenerationSelected>
-    <NameOfLastUsedPublishProfile>C:\Users\maste\OneDrive - Cégep Limoilou\DeploiementInfonuagique\TP1\CarteDeCredit.API\Properties\PublishProfiles\TP1-CarteDeCredit-API-2194189 - Web Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\Users\maste\OneDrive - Cégep Limoilou\DeploiementInfonuagique\TP4\AppMVC\CarteDeCredit.API\Properties\PublishProfiles\acrcartecredit2194189.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
