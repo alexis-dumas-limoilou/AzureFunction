@@ -7,7 +7,7 @@ pool:
 variables:
   buildConfiguration: 'Release'
   serviceConnection : 'sc-azure'
-  functionAppName: 'AzFunctionInterets'
+  functionAppName: 'AzureFunctionInterets'
   packagePath: '$(Build.ArtifactStagingDirectory)/package.zip'
 
 stages:
