@@ -5,7 +5,7 @@ resources:
 - repo: self
 
 variables:
-  dockerRegistryServiceConnection: 'acrcartecredit2194189'
+  dockerRegistryServiceConnection: 'sc-acr'
   serviceConnection : 'sc-azure'
   imageName: 'cartedecreditapi'
   containerRegistry: 'acrcartecredit2194189.azurecr.io'
