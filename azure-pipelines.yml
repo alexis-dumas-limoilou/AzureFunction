@@ -37,7 +37,7 @@ stages:
         command: 'publish'
         projects: '**/AzFunctionInterets.csproj'
         publishWebProjects: false
-        arguments: '--configuration Release --output $(packagePath)'
+        arguments: '--configuration Release --output $(Build.ArtifactStagingDirectory)'
         zipAfterPublish: true
       displayName: 'Génération du package de publication'
       
@@ -60,10 +60,17 @@ stages:
       runOnce:
         deploy:
           steps:
+          - task: DownloadBuildArtifacts@0
+            displayName: 'Download artifact'
+            inputs:
+              buildType: 'current'
+              downloadType: 'single'
+              artifactName: 'drop'
+              downloadPath: '$(Build.ArtifactStagingDirectory)'
           - task: AzureFunctionApp@1
             displayName: 'Azure Function Deploy'
             inputs:
               azureSubscription: $(serviceConnection)
               appType: functionApp
               appName: '$(functionAppName)'
-              package: '$(packagePath)'
+              package: '$(Build.ArtifactStagingDirectory)/drop/package.zip'
