@@ -8,7 +8,6 @@ variables:
   buildConfiguration: 'Release'
   serviceConnection : 'sc-azure'
   functionAppName: 'AzureFunctionInterets'
-  packagePath: '$(Build.ArtifactStagingDirectory)/package.zip'
 
 stages:
 - stage: 'Build'
@@ -69,4 +68,4 @@ stages:
               azureSubscription: $(serviceConnection)
               appType: functionApp
               appName: '$(functionAppName)'
-              package: '$(packagePath)'
+              package: '$(Build.ArtifactStagingDirectory)/drop/AzFunctionInterets.zip'
