@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\maste\\OneDrive - C\u00E9gep Limoilou\\DeploiementInfonuagique\\TP4\\AppMVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C40F6BD7-9B7B-4A29-AEEE-8FCAA97D690D}|CarteDeCredit.API\\CarteDeCredit.API.csproj|c:\\users\\maste\\onedrive - c\u00E9gep limoilou\\deploiementinfonuagique\\tp4\\appmvc\\cartedecredit.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C40F6BD7-9B7B-4A29-AEEE-8FCAA97D690D}|CarteDeCredit.API\\CarteDeCredit.API.csproj|solutionrelative:cartedecredit.api\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C40F6BD7-9B7B-4A29-AEEE-8FCAA97D690D}|CarteDeCredit.API\\CarteDeCredit.API.csproj|c:\\users\\maste\\onedrive - c\u00E9gep limoilou\\deploiementinfonuagique\\tp4\\appmvc\\cartedecredit.api\\cartedecredit.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C40F6BD7-9B7B-4A29-AEEE-8FCAA97D690D}|CarteDeCredit.API\\CarteDeCredit.API.csproj|solutionrelative:cartedecredit.api\\cartedecredit.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{62F51DD9-2DAE-44F9-AF30-08EF7AB2C27B}|BanqueTardi\\BanqueTardi.MVC.csproj|c:\\users\\maste\\onedrive - c\u00E9gep limoilou\\deploiementinfonuagique\\tp4\\appmvc\\banquetardi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{62F51DD9-2DAE-44F9-AF30-08EF7AB2C27B}|BanqueTardi\\BanqueTardi.MVC.csproj|solutionrelative:banquetardi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -62,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -83,6 +91,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CarteDeCredit.API",
+              "DocumentMoniker": "C:\\Users\\maste\\OneDrive - C\u00E9gep Limoilou\\DeploiementInfonuagique\\TP4\\AppMVC\\CarteDeCredit.API\\CarteDeCredit.API.csproj",
+              "RelativeDocumentMoniker": "CarteDeCredit.API\\CarteDeCredit.API.csproj",
+              "ToolTip": "C:\\Users\\maste\\OneDrive - C\u00E9gep Limoilou\\DeploiementInfonuagique\\TP4\\AppMVC\\CarteDeCredit.API\\CarteDeCredit.API.csproj",
+              "RelativeToolTip": "CarteDeCredit.API\\CarteDeCredit.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-22T00:56:31.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\maste\\OneDrive - C\u00E9gep Limoilou\\DeploiementInfonuagique\\TP4\\AppMVC\\CarteDeCredit.API\\Dockerfile",
+              "RelativeDocumentMoniker": "CarteDeCredit.API\\Dockerfile",
+              "ToolTip": "C:\\Users\\maste\\OneDrive - C\u00E9gep Limoilou\\DeploiementInfonuagique\\TP4\\AppMVC\\CarteDeCredit.API\\Dockerfile",
+              "RelativeToolTip": "CarteDeCredit.API\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-22T00:57:13.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CalculInteretServiceProxy.cs",
               "DocumentMoniker": "C:\\Users\\maste\\OneDrive - C\u00E9gep Limoilou\\DeploiementInfonuagique\\TP4\\AppMVC\\BanqueTardi\\Services\\CalculInteretServiceProxy.cs",
               "RelativeDocumentMoniker": "BanqueTardi\\Services\\CalculInteretServiceProxy.cs",
@@ -90,12 +124,11 @@
               "RelativeToolTip": "BanqueTardi\\Services\\CalculInteretServiceProxy.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T04:50:01.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T04:50:01.685Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "local.settings.json",
               "DocumentMoniker": "C:\\Users\\maste\\OneDrive - C\u00E9gep Limoilou\\DeploiementInfonuagique\\TP4\\AppMVC\\AzFunctionInterets\\local.settings.json",
               "RelativeDocumentMoniker": "AzFunctionInterets\\local.settings.json",
@@ -107,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "ComptesController.cs",
               "DocumentMoniker": "C:\\Users\\maste\\OneDrive - C\u00E9gep Limoilou\\DeploiementInfonuagique\\TP4\\AppMVC\\BanqueTardi\\Controllers\\ComptesController.cs",
               "RelativeDocumentMoniker": "BanqueTardi\\Controllers\\ComptesController.cs",
@@ -115,12 +148,11 @@
               "RelativeToolTip": "BanqueTardi\\Controllers\\ComptesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T02:48:57.294Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T02:48:57.294Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "CalculCreditController.cs",
               "DocumentMoniker": "C:\\Users\\maste\\OneDrive - C\u00E9gep Limoilou\\DeploiementInfonuagique\\TP4\\AppMVC\\CalculInterets.API\\Controllers\\CalculCreditController.cs",
               "RelativeDocumentMoniker": "CalculInterets.API\\Controllers\\CalculCreditController.cs",
@@ -132,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "OutputType.cs",
               "DocumentMoniker": "C:\\Users\\maste\\OneDrive - C\u00E9gep Limoilou\\DeploiementInfonuagique\\TP4\\AppMVC\\AzFunctionInterets\\OutputType.cs",
               "RelativeDocumentMoniker": "AzFunctionInterets\\OutputType.cs",
@@ -144,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "HttpInterets.cs",
               "DocumentMoniker": "C:\\Users\\maste\\OneDrive - C\u00E9gep Limoilou\\DeploiementInfonuagique\\TP4\\AppMVC\\AzFunctionInterets\\HttpInterets.cs",
               "RelativeDocumentMoniker": "AzFunctionInterets\\HttpInterets.cs",
@@ -156,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "TypeCompte.cs",
               "DocumentMoniker": "C:\\Users\\maste\\OneDrive - C\u00E9gep Limoilou\\DeploiementInfonuagique\\TP4\\AppMVC\\BanqueTardi\\Models\\TypeCompte.cs",
               "RelativeDocumentMoniker": "BanqueTardi\\Models\\TypeCompte.cs",
@@ -168,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "StorageAccountData.cs",
               "DocumentMoniker": "C:\\Users\\maste\\OneDrive - C\u00E9gep Limoilou\\DeploiementInfonuagique\\TP4\\AppMVC\\BanqueTardi\\Models\\StorageAccountData.cs",
               "RelativeDocumentMoniker": "BanqueTardi\\Models\\StorageAccountData.cs",
@@ -180,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "StorageServiceHelper.cs",
               "DocumentMoniker": "C:\\Users\\maste\\OneDrive - C\u00E9gep Limoilou\\DeploiementInfonuagique\\TP4\\AppMVC\\BanqueTardi\\Services\\StorageServiceHelper.cs",
               "RelativeDocumentMoniker": "BanqueTardi\\Services\\StorageServiceHelper.cs",
@@ -192,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "IStorageServiceHelper.cs",
               "DocumentMoniker": "C:\\Users\\maste\\OneDrive - C\u00E9gep Limoilou\\DeploiementInfonuagique\\TP4\\AppMVC\\BanqueTardi\\Interface\\IStorageServiceHelper.cs",
               "RelativeDocumentMoniker": "BanqueTardi\\Interface\\IStorageServiceHelper.cs",
@@ -204,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\maste\\OneDrive - C\u00E9gep Limoilou\\DeploiementInfonuagique\\TP4\\AppMVC\\BanqueTardi\\appsettings.json",
               "RelativeDocumentMoniker": "BanqueTardi\\appsettings.json",
@@ -217,7 +249,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\maste\\OneDrive - C\u00E9gep Limoilou\\DeploiementInfonuagique\\TP4\\AppMVC\\BanqueTardi\\Program.cs",
               "RelativeDocumentMoniker": "BanqueTardi\\Program.cs",
@@ -225,12 +257,11 @@
               "RelativeToolTip": "BanqueTardi\\Program.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAnwDcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T03:15:43.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T03:15:43.215Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "OperationsController.cs",
               "DocumentMoniker": "C:\\Users\\maste\\OneDrive - C\u00E9gep Limoilou\\DeploiementInfonuagique\\TP4\\AppMVC\\BanqueTardi\\Controllers\\OperationsController.cs",
               "RelativeDocumentMoniker": "BanqueTardi\\Controllers\\OperationsController.cs",
@@ -238,8 +269,7 @@
               "RelativeToolTip": "BanqueTardi\\Controllers\\OperationsController.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAwwGkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T02:38:03.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T02:38:03.758Z"
             }
           ]
         }

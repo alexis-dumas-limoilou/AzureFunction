@@ -805,3 +805,4 @@ C:\Users\maste\OneDrive - Cégep Limoilou\DeploiementInfonuagique\TP4\AppMVC\Car
 C:\Users\maste\OneDrive - Cégep Limoilou\DeploiementInfonuagique\TP4\AppMVC\CarteDeCredit.API\obj\Debug\net8.0\CarteDeCredit.API.pdb
 C:\Users\maste\OneDrive - Cégep Limoilou\DeploiementInfonuagique\TP4\AppMVC\CarteDeCredit.API\obj\Debug\net8.0\CarteDeCredit.API.genruntimeconfig.cache
 C:\Users\maste\OneDrive - Cégep Limoilou\DeploiementInfonuagique\TP4\AppMVC\CarteDeCredit.API\obj\Debug\net8.0\ref\CarteDeCredit.API.dll
+C:\Users\maste\OneDrive - Cégep Limoilou\DeploiementInfonuagique\TP4\AppMVC\CarteDeCredit.API\obj\Debug\net8.0\CarteDeCredit.API.sourcelink.json

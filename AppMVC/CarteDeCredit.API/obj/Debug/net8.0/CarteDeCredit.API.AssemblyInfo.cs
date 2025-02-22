@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("04806a5c-947d-4ba7-89fb-396d430f6675")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarteDeCredit.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a44729919577f775feddc83ba02a1788b73cf36a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarteDeCredit.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarteDeCredit.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
