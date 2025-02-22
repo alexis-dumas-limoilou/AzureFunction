@@ -47,6 +47,9 @@ stages:
         ArtifactName: 'drop'
         publishLocation: 'Container'
       displayName: 'Publication du package dans Azure DevOps'
+      
+    - script: ls -R $(Build.ArtifactStagingDirectory)
+      displayName: 'Check output directory contents'
 
 - stage: 'Deploy'
   displayName: 'Deploy the web application'
@@ -66,4 +69,4 @@ stages:
               azureSubscription: $(serviceConnection)
               appType: functionApp
               appName: '$(functionAppName)'
-              package: '$(Build.ArtifactStagingDirectory)/package.zip'
+              package: '$(packagePath)'
