@@ -6,6 +6,7 @@ resources:
 
 variables:
   dockerRegistryServiceConnection: 'a91979b3-3d51-4a7b-85e7-5d100fb7dc34'
+  serviceConnection : 'sc-azure'
   imageName: 'cartedecreditapi'
   containerRegistry: 'acrcartecredit2194189.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/AppMVC/CarteDeCredit.API/Dockerfile'
@@ -46,7 +47,7 @@ stages:
       - task: AzureCLI@2
         displayName: 'Deploy Container to Azure'
         inputs:
-          azureSubscription: $(azureSubscription)
+          azureSubscription: $(serviceConnection)
           scriptType: bash
           scriptLocation: inlineScript
           inlineScript: |
