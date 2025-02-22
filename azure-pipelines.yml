@@ -67,4 +67,3 @@ stages:
               appType: functionApp
               appName: '$(functionAppName)'
               package: '$(packagePath)'
-              startUpCommand: 'func azure functionapp publish $(functionAppName) --no-bundler'
