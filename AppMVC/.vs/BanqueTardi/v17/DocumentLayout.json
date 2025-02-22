@@ -66,21 +66,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\maste\\OneDrive - C\u00E9gep Limoilou\\DeploiementInfonuagique\\TP4\\AppMVC\\CarteDeCredit.API\\Dockerfile",
-              "RelativeDocumentMoniker": "CarteDeCredit.API\\Dockerfile",
-              "ToolTip": "C:\\Users\\maste\\OneDrive - C\u00E9gep Limoilou\\DeploiementInfonuagique\\TP4\\AppMVC\\CarteDeCredit.API\\Dockerfile",
-              "RelativeToolTip": "CarteDeCredit.API\\Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-22T04:39:26.589Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
@@ -99,6 +86,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\maste\\OneDrive - C\u00E9gep Limoilou\\DeploiementInfonuagique\\TP4\\AppMVC\\CarteDeCredit.API\\Dockerfile",
+              "RelativeDocumentMoniker": "CarteDeCredit.API\\Dockerfile",
+              "ToolTip": "C:\\Users\\maste\\OneDrive - C\u00E9gep Limoilou\\DeploiementInfonuagique\\TP4\\AppMVC\\CarteDeCredit.API\\Dockerfile",
+              "RelativeToolTip": "CarteDeCredit.API\\Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-22T04:39:26.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "CalculInteretServiceProxy.cs",
               "DocumentMoniker": "C:\\Users\\maste\\OneDrive - C\u00E9gep Limoilou\\DeploiementInfonuagique\\TP4\\AppMVC\\BanqueTardi\\Services\\CalculInteretServiceProxy.cs",
@@ -107,8 +107,7 @@
               "RelativeToolTip": "BanqueTardi\\Services\\CalculInteretServiceProxy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T04:50:01.685Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T04:50:01.685Z"
             },
             {
               "$type": "Document",
