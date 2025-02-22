@@ -9,7 +9,7 @@ variables:
   serviceConnection : 'sc-azure'
   imageName: 'cartedecreditapi'
   containerRegistry: 'acrcartecredit2194189.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/AppMVC/CarteDeCredit.API/Dockerfile'
+  dockerfilePath: '**/Dockerfile'
   containerGroupName: 'banque-tardi-container-group'
   resourceGroup: 'TP1_2194189_InfoNuagique'
   tag: '$(Build.BuildId)'
