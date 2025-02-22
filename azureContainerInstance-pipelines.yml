@@ -5,7 +5,7 @@ resources:
 - repo: self
 
 variables:
-  dockerRegistryServiceConnection: 'a91979b3-3d51-4a7b-85e7-5d100fb7dc34'
+  dockerRegistryServiceConnection: 'acrcartecredit2194189'
   serviceConnection : 'sc-azure'
   imageName: 'cartedecreditapi'
   containerRegistry: 'acrcartecredit2194189.azurecr.io'
@@ -29,7 +29,7 @@ stages:
       inputs:
         containerRegistry: $(dockerRegistryServiceConnection)
         repository: $(imageName)
-        command: buildAndPush
+        command: 'buildAndPush'
         dockerfile: $(dockerfilePath)
         buildContext: '$(Build.SourcesDirectory)'
         tags: |
